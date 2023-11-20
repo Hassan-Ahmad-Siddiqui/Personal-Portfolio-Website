@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <title>Hassan - Developer Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: rgb(0, 0, 32);
+      color: white;
+      font-family: "Merriweather", serif;
+      font-family: "Poppins", sans-serif;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: rgb(18, 18, 61);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li a:hover {
+      color: rgb(132, 132, 218);
+      font-size: 1.04rem;
+    }
+
+    .left {
+      font-size: 1.5rem;
+    }
+
+    .firstSection {
+      display: flex;
+      justify-content: space-around;
+      margin: 100px 0;
+      align-items: center;
+    }
+
+    .firstSection>div {
+      width: 34%;
+    }
+
+    .leftSection {
+      font-size: 3rem;
+    }
+
+    .leftSection .btn {
+      background-color: #0d0d4a;
+      padding: 12px;
+      color: white;
+      border: 2px solid white;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .leftSection .buttons{
+      padding: 50px 0;
+    }
+
+    .rightSection img {
+      width: 80%;
+    }
+
+    .purple {
+      color: rgb(136, 96, 173);
+    }
+
+    #element {
+      color: rgb(136, 96, 173);
+    }
+
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+      height: 80vh;
+    }
+
+    main hr {
+      border: 0;
+      background: #9c97f1;
+      height: 1.2px;
+      margin: 60px 84px;
+    }
+
+    .secondSection h1 {
+      font-size: 1.9rem;
+    }
+
+    .text-gray {
+      color: gray;
+    }
+
+    .secondSection .box {
+      background: white;
+      width: 77vw;
+      height: 2px;
+      margin: 56px 0;
+      display: flex;
+    }
+
+    .secondSection .vertical {
+      height: 93px;
+      width: 1px;
+      background: white;
+      margin: 0 120px;
+    }
+
+    .image-top {
+      width: 29px;
+      position: relative;
+      top: -32px;
+      left: -9px;
+    }
+
+    .vertical-title {
+      position: relative;
+      top: 75px;
+      width: 150px;
+      font-size: 14px;
+
+    }
+
+    .vertical-desc {
+      position: relative;
+      top: 86px;
+      color: gray;
+      width: 150px;
+      font-size: 9px;
+    }
+
+    footer {
+      background-color: #0e0e1a;
+
+    }
+
+    .footer {
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+    }
+
+    .footer ul {
+      list-style: none;
+    }
+
+    .footer>div {
+      width: 233px;
+    }
+
+    footer .footer-rights {
+      text-align: center;
+      color: grey;
+      padding: 12px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Hassan's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Project's</a></li>
+          <li><a href="">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">Hassan</span>
+        <div>and i am a passionate</div>
+        <span id="element"></span>
+        <div class="buttons">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit GitHub</button>
+
+        </div>
+      </div>
+      <div class="rightSection">
+        <img src="bg.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="secondSection">
+      <span class="text-gray">What I have done so far!</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="2.png" alt="" />
+          <div class="vertical-title">HTML Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="3.png" alt="" />
+          <div class="vertical-title">Node.js Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="4.png" alt="" />
+          <div class="vertical-title">HTML Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="5.png" alt="" />
+          <div class="vertical-title">HTML Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="6.png" alt="" />
+          <div class="vertical-title">HTML Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="7.png" alt="" />
+          <div class="vertical-title">HTML Devloper (2023-2023)</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illo,
+            ad hic blanditiis culpa deserunt totam neque libero in esse
+            dignissimos suscipit explicabo aperiam tenetur officiis id quos
+            sit? Temporibus!
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Hassan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-rights">
+        Copyrights &#169; Hassansportfolio.com | All rights reserved
+      </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer!"],
+        typeSpeed: 50,
+      });
+    </script>
+</body>
+
+</html>
